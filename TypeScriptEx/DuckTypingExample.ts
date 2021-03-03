@@ -17,12 +17,12 @@ class Bikedemo {
     console.log("This is a bike method!!!!!");
     }
 }
-let car: Cardemo = new Busdemo();
-console.log(car.demo());
-let bus: Busdemo = new Bikedemo();
-console.log(bus.demo());
-let bike: Bikedemo = new Cardemo();
-console.log(bike.demo);
+let car1: Cardemo = new Busdemo();
+console.log(car1.demo());
+let bus1: Busdemo = new Bikedemo();
+console.log(bus1.demo());
+let bike1: Bikedemo = new Cardemo();
+console.log(bike1.demo);
 
 console.log("car says: " + car.demo);
 console.log("bus says: " + bus.demo);
